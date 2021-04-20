@@ -145,6 +145,7 @@ export interface APIEmbed {
     footer?: {
         text: string;
         icon_url?: string;
+        iconUrl?: string;
     };
     image?: {
         url: string;
@@ -155,6 +156,8 @@ export interface APIEmbed {
     author?: {
         name: string;
         icon_url?: string;
+        iconUrl?: string;
+        url?: string;
     };
     fields?: { inline?: boolean; name: string; value: string }[];
     color?: number | string;
